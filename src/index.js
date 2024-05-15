@@ -8,5 +8,6 @@ const app = express();
 app.use('/api', apiRoutes);
 
 app.listen(ServerConfig.PORT, () => {
-    // console.log(`Successfully started the server on PORT : ${ServerConfig.PORT}`);
+    console.log(`Successfully started the server on PORT : ${ServerConfig.PORT}`);
+    console.log("hello World")
 });
